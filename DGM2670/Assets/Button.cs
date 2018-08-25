@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Button : MonoBehaviour {
 
-	// Use this for initialization
+	public bool masterbutton;
 	void Start () {
 		
 	}

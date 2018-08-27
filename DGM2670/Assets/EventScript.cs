@@ -1,16 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class EventScript : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	public UnityEvent MyEvent;
 	
-	// Update is called once per frame
-	void Update () {
-		
+	private void Start()
+	{
+	    MyEvent.Invoke();
 	}
 }

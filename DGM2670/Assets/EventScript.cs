@@ -5,10 +5,15 @@ using UnityEngine.Events;
 
 public class EventScript : MonoBehaviour {
 
-	public UnityEvent MyEvent;
+	public UnityEvent Event;
 	
-	private void Start()
+	private void OnMouseDown()
 	{
-	    MyEvent.Invoke();
+		Event.Invoke();
+	}
+
+	private void OnTriggerEnter(Collider other)
+	{
+		Event.Invoke();
 	}
 }

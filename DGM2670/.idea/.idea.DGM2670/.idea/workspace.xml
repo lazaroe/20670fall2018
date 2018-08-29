@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a5bd1f-7e8c-4a8a-ac82-c75d045a47e2" name="Default" comment="" />
+    <list default="true" id="44a5bd1f-7e8c-4a8a-ac82-c75d045a47e2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DGM2670/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DGM2670/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EventScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EventScript.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,13 +17,12 @@
       <file leaf-file-name="EventScript.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/EventScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
-                <marker date="1535482451714" expanded="true" signature="6:104" ph="..." />
-                <marker date="1535482451714" expanded="true" signature="147:372" ph="{...}" />
-                <marker date="1535482451714" expanded="true" signature="205:229" ph="{...}" />
-                <marker date="1535482451714" expanded="true" signature="275:299" ph="{...}" />
+                <marker date="1535570365715" expanded="true" signature="0:44" ph="..." />
+                <marker date="1535570365715" expanded="true" signature="87:279" ph="{...}" />
+                <marker date="1535570365715" expanded="true" signature="186:210" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -72,10 +74,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -87,6 +85,10 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -126,11 +128,12 @@
       <workItem from="1535399844006" duration="604000" />
       <workItem from="1535400510343" duration="1064000" />
       <workItem from="1535482296748" duration="189000" />
+      <workItem from="1535570160119" duration="202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5444000" />
+    <option name="totallyTimeSpent" value="5646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -143,22 +146,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2806354" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -184,13 +188,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/EventScript.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <marker date="1535570365715" expanded="true" signature="0:44" ph="..." />
+            <marker date="1535570365715" expanded="true" signature="87:279" ph="{...}" />
+            <marker date="1535570365715" expanded="true" signature="186:210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/EventScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
-            <marker date="1535482451714" expanded="true" signature="6:104" ph="..." />
-            <marker date="1535482451714" expanded="true" signature="147:372" ph="{...}" />
-            <marker date="1535482451714" expanded="true" signature="205:229" ph="{...}" />
-            <marker date="1535482451714" expanded="true" signature="275:299" ph="{...}" />
+            <marker date="1535570365715" expanded="true" signature="0:44" ph="..." />
+            <marker date="1535570365715" expanded="true" signature="87:279" ph="{...}" />
+            <marker date="1535570365715" expanded="true" signature="186:210" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -200,10 +215,9 @@
         <state relative-caret-position="180">
           <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <marker date="1535482451714" expanded="true" signature="6:104" ph="..." />
-            <marker date="1535482451714" expanded="true" signature="147:372" ph="{...}" />
-            <marker date="1535482451714" expanded="true" signature="205:229" ph="{...}" />
-            <marker date="1535482451714" expanded="true" signature="275:299" ph="{...}" />
+            <marker date="1535570365715" expanded="true" signature="0:44" ph="..." />
+            <marker date="1535570365715" expanded="true" signature="87:279" ph="{...}" />
+            <marker date="1535570365715" expanded="true" signature="186:210" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -346,13 +360,12 @@
     <entry file="file://$PROJECT_DIR$/Assets/Button.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/EventScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <marker date="1535482451714" expanded="true" signature="6:104" ph="..." />
-            <marker date="1535482451714" expanded="true" signature="147:372" ph="{...}" />
-            <marker date="1535482451714" expanded="true" signature="205:229" ph="{...}" />
-            <marker date="1535482451714" expanded="true" signature="275:299" ph="{...}" />
+            <marker date="1535570365715" expanded="true" signature="0:44" ph="..." />
+            <marker date="1535570365715" expanded="true" signature="87:279" ph="{...}" />
+            <marker date="1535570365715" expanded="true" signature="186:210" ph="{...}" />
           </folding>
         </state>
       </provider>

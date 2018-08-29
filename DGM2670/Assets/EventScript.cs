@@ -1,16 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class EventScript : MonoBehaviour {
 
 	public UnityEvent Event;
-	
-	private void OnMouseDown()
-	{
-		Event.Invoke();
-	}
+	public UnityEvent Stop;
 
 	private void OnTriggerEnter(Collider other)
 	{
@@ -18,6 +12,6 @@ public class EventScript : MonoBehaviour {
 	}
 	private void OnTriggerExit(Collider other)
 	{
-	    Event.Invoke():
+		Stop.Invoke();
 	}
 }

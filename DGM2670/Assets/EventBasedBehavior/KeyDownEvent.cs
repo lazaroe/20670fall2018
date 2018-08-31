@@ -7,5 +7,8 @@ public class KeyDownEvent : MonoBehaviour {
 
 	public UnityEvent Event;
 
-	 
+	 private void Update():
+		{
+		Event.Invoke();
+		}
 }

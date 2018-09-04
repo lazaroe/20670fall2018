@@ -4,13 +4,5 @@ using UnityEngine;
 
 public class practice2 : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	// this is just for practice
 }

@@ -11,10 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7faa87177f105644a99b86c9d91d4aa, type: 3}
   m_Name: AutoJump
   m_EditorClassIdentifier: 
-  jumpSpeed: 8
   gravity: {fileID: 0}
   MoveX: {fileID: 0}
-  MoveY: {fileID: 0}
+  MoveY: {fileID: 11400000, guid: ad9df8d2abcc31d48b4bf444c2635eaf, type: 2}
   MoveZ: {fileID: 0}
   RotX: {fileID: 0}
   RotY: {fileID: 0}

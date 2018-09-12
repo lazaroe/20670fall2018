@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27d200fe913e1e94cbd68f071468fded, type: 3}
   m_Name: JumpwithInput
   m_EditorClassIdentifier: 
-  value: 0
-  InputType: 
+  value: 10
+  InputType: 10

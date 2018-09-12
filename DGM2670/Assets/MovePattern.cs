@@ -4,14 +4,12 @@ using UnityEngine;
 
 [CreateAssetMenu]
 public class MovePattern : ScriptableObject {
-
-		public float jumpSpeed = 8.0F;
         public FloatData gravity;
 
          public FloatData MoveX, MoveY, MoveZ;
          public FloatData RotX, RotY, RotZ;
     
-        private Vector3 moveDirection;
+        protected Vector3 moveDirection;
         private Vector3 rotDirection;
 
 		public virtual void Invoke(CharacterController controller, Transform transform)

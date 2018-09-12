@@ -11,11 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46602ef98dca0dd4a8246c239d84ace0, type: 3}
   m_Name: Airplane
   m_EditorClassIdentifier: 
-  jumpSpeed: 8
-  gravity: {fileID: 0}
-  MoveX: {fileID: 0}
-  MoveY: {fileID: 0}
-  MoveZ: {fileID: 0}
-  RotX: {fileID: 0}
-  RotY: {fileID: 0}
-  RotZ: {fileID: 0}
+  gravity: {fileID: 11400000, guid: 31fa6729b7ec0be4d88745a47fbec6ae, type: 2}
+  MoveX: {fileID: 11400000, guid: f88fffbbc964ebb44987ff5cf90e3a9a, type: 2}
+  MoveY: {fileID: 11400000, guid: 09ce799ae60b902479bc974965800277, type: 2}
+  MoveZ: {fileID: 11400000, guid: 31fa6729b7ec0be4d88745a47fbec6ae, type: 2}
+  RotX: {fileID: 11400000, guid: 31fa6729b7ec0be4d88745a47fbec6ae, type: 2}
+  RotY: {fileID: 11400000, guid: 586127f34fb5eb247ba296fab6a3185a, type: 2}
+  RotZ: {fileID: 11400000, guid: 09ce799ae60b902479bc974965800277, type: 2}

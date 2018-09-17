@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 617d390e6d817cb4bba596f27607f8ea, type: 3}
   m_Name: Zaxis
   m_EditorClassIdentifier: 
-  value: 0
-  InputType: 
+  value: 10
+  InputType: Zaxis

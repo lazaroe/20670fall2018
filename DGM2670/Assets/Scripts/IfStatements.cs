@@ -2,18 +2,11 @@
 
 public class IfStatements : MonoBehaviour
 {
-	public float Speed;
-
-	public bool LightsOn;
-	// Use this for initialization
-	void Start () {
+	  void OnCollisionEnter(Collision otherObj)
+	   {
+		if (otherObj.gameObject.tag == "Trap")
 		{
-		//do work and my commit for the day
+        Destroy(gameObject);
 		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }

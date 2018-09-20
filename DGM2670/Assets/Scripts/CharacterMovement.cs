@@ -16,3 +16,5 @@ public class CharacterMovement : MonoBehaviour {
             Pattern.Invoke(controller, transform);
         }
 }
+//Character Controller
+//Inheritance

@@ -1,16 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//[CreateAssetMenu]
+//public class Gliding : ScriptableObject {
 
-public class Gliding : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
+	//public bool gravity;
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-}
+
+	//public override void Invoke(CharacterController controller, Transform transform)
+	//{
+	//if (controller.isGrounded)
+		//{
+			//gavity(transform);
+			//doubleJump = true;
+	//	}
+//	}
+//}

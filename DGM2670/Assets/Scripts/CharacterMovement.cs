@@ -15,6 +15,14 @@ public class CharacterMovement : MonoBehaviour {
     void Update() {
             Pattern.Invoke(controller, transform);
         }
+   void OnTriggerEnter
+    (Collider other)
+{
+    if (other.gameObject.CompareTag("PickUp"))
+    {
+        other.gameObject.SetActive(false);
+    }
+}
 }
 //Character Controller
 //Inheritance

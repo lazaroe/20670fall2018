@@ -266,6 +266,7 @@ GameObject:
   - component: {fileID: 464186544}
   - component: {fileID: 464186550}
   - component: {fileID: 464186549}
+  - component: {fileID: 464186551}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -381,6 +382,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 701016150990ef34da584a552efa553c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &464186551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 464186543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e5b196baa4ec74f87f9e85ab0b0b22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Car: {fileID: 11400000, guid: 851a04c498a350049a642870797c3014, type: 2}
+  Airplane: {fileID: 11400000, guid: b5a5308b613a63445b29297a445e2ed3, type: 2}
 --- !u!1 &471108246
 GameObject:
   m_ObjectHideFlags: 0

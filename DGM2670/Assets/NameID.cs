@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class NameID : ScriptableObject {
-
-	
+public class NameID : ScriptableObject
+{
 }

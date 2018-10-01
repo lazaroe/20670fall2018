@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b5c3a942e6136449f4d61774a94416, type: 3}
   m_Name: SpeedCollection
   m_EditorClassIdentifier: 
-  RandomSpeed: {fileID: 11400000, guid: ad9df8d2abcc31d48b4bf444c2635eaf, type: 2}
+  RandomSpeed: {fileID: 11400000, guid: f88fffbbc964ebb44987ff5cf90e3a9a, type: 2}
   SpeedOptions:
   - {fileID: 11400000, guid: 31fa6729b7ec0be4d88745a47fbec6ae, type: 2}
   - {fileID: 11400000, guid: f88fffbbc964ebb44987ff5cf90e3a9a, type: 2}

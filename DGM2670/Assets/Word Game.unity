@@ -238,6 +238,7 @@ GameObject:
   - component: {fileID: 332148066}
   - component: {fileID: 332148064}
   - component: {fileID: 332148065}
+  - component: {fileID: 332148067}
   m_Layer: 0
   m_Name: Ring1
   m_TagString: Untagged
@@ -330,7 +331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da99e66f6a45c694095cecfe07fa89ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: {fileID: 11400000, guid: 885fe36d3204c0d4ebd8bf5732233166, type: 2}
+  ID: {fileID: 0}
   OnMatch:
     m_PersistentCalls:
       m_Calls: []
@@ -348,6 +349,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.88, y: 2.88, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &332148067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332148061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6f72c5c217f3c479f24635a6a54cf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteColor: {fileID: 0}
 --- !u!1 &698255900
 GameObject:
   m_ObjectHideFlags: 0

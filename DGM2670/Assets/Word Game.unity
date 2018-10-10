@@ -143,6 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055410617b29a3f4393c37e574b10b94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanDrag: 0
 --- !u!65 &153463766
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -239,6 +240,7 @@ GameObject:
   - component: {fileID: 332148064}
   - component: {fileID: 332148065}
   - component: {fileID: 332148067}
+  - component: {fileID: 332148068}
   m_Layer: 0
   m_Name: Ring1
   m_TagString: Untagged
@@ -331,7 +333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da99e66f6a45c694095cecfe07fa89ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: {fileID: 0}
+  ID: {fileID: 11400000, guid: 5cee6c0b8e6f65749b17d5c796c3bfda, type: 2}
   OnMatch:
     m_PersistentCalls:
       m_Calls: []
@@ -360,7 +362,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a6f72c5c217f3c479f24635a6a54cf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpriteColor: {fileID: 0}
+  SpriteColor: {fileID: 11400000, guid: 7eeeb557204f1f5479ae6191ff83847f, type: 2}
+--- !u!114 &332148068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332148061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eff30a56d9eca04ab35cec09faf37de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &698255900
 GameObject:
   m_ObjectHideFlags: 0

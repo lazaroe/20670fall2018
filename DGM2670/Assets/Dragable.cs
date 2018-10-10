@@ -4,24 +4,30 @@ using UnityEngine;
 
 public class Dragable : MonoBehaviour {
 
-	private Vector3 currentPosition;
+	private Vector3 offsetPosition;
 	private Vector3 newPosition;
 	private Camera cam;
+	public bool CanDrag;
 
 	void Start ()
 	{
 		cam = Camera.main;
 	}
 
-	private void OnMouseDown()
+	private IEnumerator OnMouseDown()
 	{
-		currentPosition = transform.position - cam.ScreenToWorldPoint(Input.mousePosition);
-	}
-
-	void OnMouseDrag ()
-	{
-		newPosition = currentPosition + cam.ScreenToWorldPoint(Input.mousePosition);
-		newPosition.z = 0;
+		offsetPosition = transform.position - cam.ScreenToWorldPoint(Input.mousePosition);
+		yield return new WaitForFixedUpdate();
+		CanDrag = true;
+		while (CanDrag)
+		{
+		yield return new WaitForFixedUpdate();
+		newPosition = cam.ScreenToWorldPoint(Input.mousePosition) + offsetPosition;
 		transform.position = newPosition;
-	}
+		}
+}
+private void OnMouseUp()
+{
+	CanDrag = false;
+}
 }

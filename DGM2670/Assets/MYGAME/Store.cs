@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu(fileName = "store",menuName = "Store/StoreFront")]
-public class Store : MonoBehaviour {
+public class Store : ScriptableObject {
 
 	public Objects Available;
 	public Objects Purchased;
@@ -13,6 +13,7 @@ public class Store : MonoBehaviour {
 			if (availableObject == obj)
 			{
 				Purchased.ObjectList.Add(obj);
+				Available.ObjectList.Remove(availableObject);
 			}
 		}
 	}

@@ -11,10 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7faa87177f105644a99b86c9d91d4aa, type: 3}
   m_Name: Car
   m_EditorClassIdentifier: 
-  gravity: {fileID: 0}
-  MoveX: {fileID: 0}
-  MoveY: {fileID: 0}
-  MoveZ: {fileID: 0}
-  RotX: {fileID: 0}
-  RotY: {fileID: 0}
-  RotZ: {fileID: 0}
+  gravity: {fileID: 11400000, guid: 31fa6729b7ec0be4d88745a47fbec6ae, type: 2}
+  MoveX: {fileID: 11400000, guid: 31fa6729b7ec0be4d88745a47fbec6ae, type: 2}
+  MoveY: {fileID: 11400000, guid: ad9df8d2abcc31d48b4bf444c2635eaf, type: 2}
+  MoveZ: {fileID: 11400000, guid: 31fa6729b7ec0be4d88745a47fbec6ae, type: 2}
+  RotX: {fileID: 11400000, guid: 31fa6729b7ec0be4d88745a47fbec6ae, type: 2}
+  RotY: {fileID: 11400000, guid: 31fa6729b7ec0be4d88745a47fbec6ae, type: 2}
+  RotZ: {fileID: 11400000, guid: 31fa6729b7ec0be4d88745a47fbec6ae, type: 2}

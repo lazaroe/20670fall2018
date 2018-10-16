@@ -11,4 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22289dc584f36e345884d03868fed2a7, type: 3}
   m_Name: Puchased
   m_EditorClassIdentifier: 
-  ObjectList: []
+  ObjectList:
+  - {fileID: 11400000, guid: 885fe36d3204c0d4ebd8bf5732233166, type: 2}
+  - {fileID: 11400000, guid: 065726d82037475418d71cd2a8b823d2, type: 2}
+  - {fileID: 11400000, guid: 34655da1dd6d14143a8137b08dbf84dc, type: 2}

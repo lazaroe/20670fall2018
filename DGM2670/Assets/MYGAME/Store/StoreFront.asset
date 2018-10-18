@@ -13,3 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Available: {fileID: 11400000, guid: 6ded04efa8dd8e34e82e41cff57b2fc9, type: 2}
   Purchased: {fileID: 11400000, guid: 5614f62a2ed0c694d91a432dd37a3bcd, type: 2}
+  Cash: {fileID: 11400000, guid: f8aa3c65075747444a45c0217937d8de, type: 2}
+  TotalValue: 3000
+  MadePurchase:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

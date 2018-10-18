@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ReloadLevel : MonoBehaviour {
 
-	void OnTriggerEnter(Collider Other)
+	void OnTriggerEnter(Collider Player)
 	{
 		Application.LoadLevel(Application.loadedLevel);
 	}

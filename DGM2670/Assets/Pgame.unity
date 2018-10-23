@@ -1890,7 +1890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1626548995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2085,6 +2085,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Spawnpoint: {fileID: 1021136135}
   Prefab: {fileID: 1169181925372686, guid: b7e85862670c5264cbe54c75ed93f268, type: 2}
+  maxAmmo: 1
+  reloadTime: 1
 --- !u!1 &1828901090
 GameObject:
   m_ObjectHideFlags: 0

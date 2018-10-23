@@ -29,9 +29,11 @@ public class Collectables : MonoBehaviour {
 	    //This will make the object dissapear
         if (other.gameObject.CompareTag ("Player"))
         {
-              gameObject.SetActive (false);
-	      count = count + 1;
+	        count = count + 1;
             SetCountText ();
+            AmmoText.ammoAmount += 6;
+            Destroy (gameObject);
+
         }
     }
     void SetCountText ()

@@ -1,23 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Build : MonoBehaviour
 {
 
 	public Transform Spawnpoint;
 	public GameObject Prefab;
-	public int maxAmmo;
-	private int currentAmmo;
-	public float reloadTime = 1f;
+	public AmmoText ammoAmount;
+	//public int maxAmmo;
+	//private int currentAmmo;
+	//public float reloadTime = 1f;
 
 	private bool isReloading = false;
 
-	void Start ()
+	/*void Start ()
 	{
 		currentAmmo = maxAmmo;
 	}
-
+	
 	void Update ()
 	
 	{
@@ -30,21 +31,24 @@ public class Build : MonoBehaviour
 			return;
 		}
 	}
-
-	IEnumerator Reload ()
+	//different form of shooting and reloading
+	/*IEnumerator Reload ()
 	{
 		isReloading = true;
 		Debug.Log("Reloading..");
-		yield return new WaitForSeconds(reloadTime);
+		//yield return new WaitForSeconds(reloadTime);
 		currentAmmo = maxAmmo;
 		isReloading = false;
 	}
-	
+	*/
 	//public virtual void Invoke(CharacterController controller, Transform transform)
 	 	void OnMouseDown()
 			{
+				if (ammoAmount > 0)
+				{
 		Prefab = Instantiate(Prefab, Spawnpoint.position, Spawnpoint.rotation);
 		Destroy(Prefab, 2.0f);
+				}
 			}
 	
 }

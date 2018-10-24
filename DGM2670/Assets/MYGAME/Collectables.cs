@@ -6,9 +6,8 @@ using UnityEngine.UI;
 public class Collectables : MonoBehaviour {
 
 	public int destroyTime = 4;
-	public float speed;
 	private int count;
-
+    public FloatData ammoAmount;
 	void Update () 
 	{
 		//This will make the object rotate as it falls down
@@ -21,7 +20,7 @@ public class Collectables : MonoBehaviour {
 	    //This will make the object dissapear
         if (other.gameObject.CompareTag ("Player"))
         {
-            AmmoText.ammoAmount += 6;
+            ammoAmount.value += 6;
             Destroy (gameObject);
 
         }

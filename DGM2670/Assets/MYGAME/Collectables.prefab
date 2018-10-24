@@ -109,6 +109,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyTime: 10
-  speed: 0
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  ammoAmount: {fileID: 11400000, guid: b27455933f9e7f645a2048b0f5e2a195, type: 2}

@@ -6,6 +6,7 @@ public class CharacterMovement : MonoBehaviour {
         
         private CharacterController controller;
         public MovePattern Pattern;
+        public FloatData ammoAmount;
         
     private void Start()
     {
@@ -14,7 +15,7 @@ public class CharacterMovement : MonoBehaviour {
 
     void Update() {
             Pattern.Invoke(controller, transform);
-            if (Input.GetButtonDown ("Fire1") && AmmoText.ammoAmount > 0)
+            if (Input.GetButtonDown ("Fire1") && ammoAmount.value > 0)
             Fire ();
         }
    void OnTriggerEnter
@@ -27,7 +28,7 @@ public class CharacterMovement : MonoBehaviour {
 }
 void Fire()
 {
-    AmmoText.ammoAmount -= 1;
+    ammoAmount.value -= 1;
 }
 }
 //Character Controller

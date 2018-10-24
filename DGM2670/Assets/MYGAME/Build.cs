@@ -7,7 +7,7 @@ public class Build : MonoBehaviour
 
 	public Transform Spawnpoint;
 	public GameObject Prefab;
-	public AmmoText ammoAmount;
+	public FloatData ammoAmount;
 	//public int maxAmmo;
 	//private int currentAmmo;
 	//public float reloadTime = 1f;
@@ -44,7 +44,7 @@ public class Build : MonoBehaviour
 	//public virtual void Invoke(CharacterController controller, Transform transform)
 	 	void OnMouseDown()
 			{
-				if (ammoAmount > 0)
+				if (ammoAmount.value > 0)
 				{
 		Prefab = Instantiate(Prefab, Spawnpoint.position, Spawnpoint.rotation);
 		Destroy(Prefab, 2.0f);

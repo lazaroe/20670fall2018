@@ -14,6 +14,8 @@ public class CharacterMovement : MonoBehaviour {
 
     void Update() {
             Pattern.Invoke(controller, transform);
+            if (Input.GetButtonDown ("Fire1") && AmmoText.ammoAmount > 0)
+            Fire ();
         }
    void OnTriggerEnter
     (Collider other)
@@ -22,6 +24,10 @@ public class CharacterMovement : MonoBehaviour {
     {
         other.gameObject.SetActive(false);
     }
+}
+void Fire()
+{
+    AmmoText.ammoAmount -= 1;
 }
 }
 //Character Controller

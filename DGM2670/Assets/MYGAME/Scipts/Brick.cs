@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Brick : MonoBehaviour {
-	public float destroyTime = 2f;
+	//public float destroyTime = 2f;
 
 	public float jumpForce = 10f;
 
@@ -20,8 +20,8 @@ public class Brick : MonoBehaviour {
 			}
 		}
 	}
-	void Start()
+	/*void Start()
 	{
 		Destroy (gameObject, destroyTime);
-	}
+	}*/
 }

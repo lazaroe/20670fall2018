@@ -6,7 +6,7 @@ public class Build : MonoBehaviour
 {
 
 	public Transform Spawnpoint;
-	public GameObject Prefab;
+	public GameObject Brick;
 	public FloatData ammoAmount;
 	//public int maxAmmo;
 	//private int currentAmmo;
@@ -46,8 +46,7 @@ public class Build : MonoBehaviour
 			{
 				if (ammoAmount.value > 0)
 				{
-		Prefab = Instantiate(Prefab, Spawnpoint.position, Spawnpoint.rotation);
-		Destroy(Prefab, 2.0f);
+		Brick = Instantiate(Brick, Spawnpoint.position, Spawnpoint.rotation);
 				}
 			}
 	

@@ -12,7 +12,7 @@ public class Build : MonoBehaviour
 	//private int currentAmmo;
 	//public float reloadTime = 1f;
 
-	private bool isReloading = false;
+	//private bool isReloading = false;
 
 	/*void Start ()
 	{
@@ -42,12 +42,13 @@ public class Build : MonoBehaviour
 	}
 	*/
 	//public virtual void Invoke(CharacterController controller, Transform transform)
-	 	void OnMouseDown()
-			{
+
+	public void build ()
+		{
 				if (ammoAmount.value > 0)
 				{
 		Brick = Instantiate(Brick, Spawnpoint.position, Spawnpoint.rotation);
 				}
-			}
-	
+		
+		}
 }

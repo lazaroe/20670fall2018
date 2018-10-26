@@ -6,7 +6,7 @@ public class Coin : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D col)
 	{
-		//GameControl.moneyAmount += 1;
+		GameControl.moneyAmount += 1;
 		Destroy (gameObject);
 	}
 }

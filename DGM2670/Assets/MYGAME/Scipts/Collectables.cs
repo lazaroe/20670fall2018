@@ -10,12 +10,10 @@ public class Collectables : MonoBehaviour {
     public FloatData ammoAmount;
 	void Update () 
 	{
-		//This will make the object rotate as it falls down
-        transform.Rotate (new Vector3 (15, 30, 45) * Time.deltaTime);
         Destroy (gameObject, destroyTime);
 	}
 
-	void OnTriggerEnter(Collider other) 
+	void OnTriggerEnter2D (Collider2D other) 
     {
 	    //This will make the object dissapear
         if (other.gameObject.CompareTag ("Player"))

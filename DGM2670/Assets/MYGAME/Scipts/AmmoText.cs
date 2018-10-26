@@ -17,8 +17,8 @@ public class AmmoText : MonoBehaviour {
 	void Update ()
 	{
 		if (ammoAmount.value > 0)
-		 text.text = "Ammo" + ammoAmount.value;
+		 text.text = "Brick" + ammoAmount.value;
 		 else
-		 text.text = "Out of Ammo!";
+		 text.text = "Out of Resources!";
 	}
 }

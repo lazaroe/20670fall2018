@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DeathGas : MonoBehaviour {
-
+public GameObject DeathMenu;
 public void update ()
 {   
-		transform.Translate(0f,1f*Time.deltaTime,0f);
+	transform.Translate(0f,5f,0f);
 }
-	void OnCollisionEnter2D	(Collision2D col)
+	void OnCollisionEnter(Collision col)
 {
-	if (gameObject.CompareTag("Player"))
+	if (col.gameObject.CompareTag("Player"))
     {
-        gameObject.SetActive(false);
+        col.gameObject.SetActive(false);
+        DeathMenu.SetActive(true);
     }
 }
 }

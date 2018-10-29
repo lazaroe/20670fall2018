@@ -13,7 +13,7 @@ public class Collectables : MonoBehaviour {
         Destroy (gameObject, destroyTime);
 	}
 
-	void OnTriggerEnter2D (Collider2D other) 
+	void OnTriggerEnter (Collider other) 
     {
 	    //This will make the object dissapear
         if (other.gameObject.CompareTag ("Player"))

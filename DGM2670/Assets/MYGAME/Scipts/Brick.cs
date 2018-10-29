@@ -7,14 +7,14 @@ public class Brick : MonoBehaviour {
 
 	public float jumpForce = 10f;
 
-	void OnCollisionEnter2D(Collision2D collision)
+	void OnCollisionEnter(Collision collision)
 	{
 		if (collision.relativeVelocity.y <= 0f)
 		{
-			Rigidbody2D rb = collision.collider.GetComponent<Rigidbody2D>();
+			Rigidbody rb = collision.collider.GetComponent<Rigidbody>();
 			if (rb != null)
 			{
-				Vector2 velocity = rb.velocity;
+				Vector3 velocity = rb.velocity;
 				velocity.y = jumpForce;
 				rb.velocity = velocity;
 			}

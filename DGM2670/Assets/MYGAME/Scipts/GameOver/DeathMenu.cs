@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 public class DeathMenu : MonoBehaviour 
 {	
 
-public void retry()
+	public void update()
 	{
-		SceneManager.LoadScene ("Pgame");
+
 	}
 	
 }

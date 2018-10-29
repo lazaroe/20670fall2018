@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour {
 
-	void OnTriggerEnter2D (Collider2D col)
+	void OnTriggerEnter (Collider col)
 	{
 		GameControl.moneyAmount += 1;
 		Destroy (gameObject);

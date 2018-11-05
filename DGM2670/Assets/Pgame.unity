@@ -579,6 +579,8 @@ GameObject:
   m_Component:
   - component: {fileID: 384276445}
   - component: {fileID: 384276444}
+  - component: {fileID: 384276446}
+  - component: {fileID: 384276447}
   m_Layer: 0
   m_Name: Jetpack
   m_TagString: Untagged
@@ -645,6 +647,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &384276446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 384276443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df999ce12f4d84742b7700f2b5167103, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 40
+--- !u!65 &384276447
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 384276443}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.741307, y: 4.387705, z: 0.20000003}
+  m_Center: {x: 0.017971475, y: 0.39080384, z: 0}
 --- !u!1 &428185744
 GameObject:
   m_ObjectHideFlags: 0

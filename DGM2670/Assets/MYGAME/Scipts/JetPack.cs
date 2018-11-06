@@ -18,8 +18,6 @@ public class JetPack : MonoBehaviour {
 				rb.velocity = velocity;
 			}     
 		}
-		
-//
 
 
 	}

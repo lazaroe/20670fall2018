@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212253341173232952}
   - component: {fileID: 114535442294605078}
   - component: {fileID: 65557012074465318}
+  - component: {fileID: 114558168093486024}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -52,8 +53,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.25, y: 2.25, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.55811, y: 1.5416355, z: 0.2}
+  m_Center: {x: 0.016473651, y: -0.008235931, z: 0}
 --- !u!114 &114535442294605078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -65,6 +66,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de15d7e9837f52e47a4b3975ec46e0b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114558168093486024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1226657386396594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3de243de5e94648a53dfe724dadf16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 198328125219986150, guid: a4728cfe5575cd54f9df165c782fa86e,
+          type: 2}
+        m_MethodName: Emit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Stop:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 198328125219986150, guid: a4728cfe5575cd54f9df165c782fa86e,
+          type: 2}
+        m_MethodName: Pause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!212 &212253341173232952
 SpriteRenderer:
   m_ObjectHideFlags: 1

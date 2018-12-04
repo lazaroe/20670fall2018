@@ -580,6 +580,7 @@ GameObject:
   - component: {fileID: 384276445}
   - component: {fileID: 384276444}
   - component: {fileID: 384276446}
+  - component: {fileID: 384276448}
   - component: {fileID: 384276447}
   m_Layer: 0
   m_Name: Jetpack
@@ -671,6 +672,51 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.741307, y: 4.387705, z: 0.20000003}
   m_Center: {x: 0.017971475, y: 0.39080384, z: 0}
+--- !u!114 &384276448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 384276443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3de243de5e94648a53dfe724dadf16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 198328125219986150, guid: a4728cfe5575cd54f9df165c782fa86e,
+          type: 2}
+        m_MethodName: Emit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Stop:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 198328125219986150, guid: a4728cfe5575cd54f9df165c782fa86e,
+          type: 2}
+        m_MethodName: Pause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 0
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &428185744
 GameObject:
   m_ObjectHideFlags: 0

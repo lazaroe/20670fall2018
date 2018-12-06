@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class MouseDownEvent : MonoBehaviour
 {
-
-	public UnityEvent Event;
-
-	private void OnMouseDown()
+	public void LoadScene()
 	{
-		Event.Invoke();
+		SceneManager.LoadScene(2);
 	}
+
 
 }

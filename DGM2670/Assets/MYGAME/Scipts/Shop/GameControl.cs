@@ -7,9 +7,10 @@ using UnityEngine.SceneManagement;
 public class GameControl : MonoBehaviour {
 
 	public Text moneyText;
-	public static int moneyAmount;
+	public static float moneyAmount;
 	int isRifleSold;
 	public GameObject rifle;
+
 
 	void Start () {
 		moneyAmount = PlayerPrefs.GetInt ("MoneyAmount");
@@ -27,7 +28,7 @@ public class GameControl : MonoBehaviour {
 
 	public void gotoShop()
 	{
-		PlayerPrefs.SetInt ("MoneyAmount", moneyAmount);
+		PlayerPrefs.SetInt ("MoneyAmount", (int)moneyAmount);
 		SceneManager.LoadScene ("Shop");
 	}
 }

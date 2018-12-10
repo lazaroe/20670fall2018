@@ -11,8 +11,11 @@ public class GameControl : MonoBehaviour {
 	int isRifleSold;
 	public GameObject rifle;
 
-
-	void Start () {
+	//second Item public
+	int isRocketSold;
+	public GameObject Rocket;
+	void Start () 
+	{
 		moneyAmount = PlayerPrefs.GetInt ("MoneyAmount");
 		isRifleSold = PlayerPrefs.GetInt ("IsRifleSold");
 
@@ -20,6 +23,16 @@ public class GameControl : MonoBehaviour {
 			rifle.SetActive (true);
 		else
 			rifle.SetActive (false);
+
+		//part 2 rocket
+		moneyAmount = PlayerPrefs.GetInt ("MoneyAmount");
+		isRocketSold = PlayerPrefs.GetInt ("isRocketSold");
+
+		if (isRocketSold == 1)
+			Rocket.SetActive (true);
+		else
+			Rocket.SetActive (false);
+
 	}
 	
 	void Update () {
@@ -31,4 +44,9 @@ public class GameControl : MonoBehaviour {
 		PlayerPrefs.SetInt ("MoneyAmount", (int)moneyAmount);
 		SceneManager.LoadScene ("Shop");
 	}
+
+	//public second Item
+
+
+
 }

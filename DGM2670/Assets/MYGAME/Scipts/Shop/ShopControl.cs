@@ -14,6 +14,12 @@ public class ShopControl : MonoBehaviour {
 
 	public Button buyButton;
 
+	//Second Item public
+
+	int isRocketSold;
+	public Text rocketPrice;
+	public Button buyRocketButton;
+
 	void Start () {
 		moneyAmount = PlayerPrefs.GetInt ("MoneyAmount");
 	}
@@ -28,6 +34,13 @@ public class ShopControl : MonoBehaviour {
 			buyButton.interactable = true;
 		else
 			buyButton.interactable = false;	
+			//Second Item Update
+		isRocketSold = PlayerPrefs.GetInt ("IsRocketSold");
+
+		if (moneyAmount >= 20 && isRocketSold == 0)
+			buyRocketButton.interactable = true;
+		else
+			buyRocketButton.interactable = false;	
 	}
 
 	public void buyRifle()
@@ -36,6 +49,14 @@ public class ShopControl : MonoBehaviour {
 		PlayerPrefs.SetInt ("IsRifleSold", 1);
 		riflePrice.text = "Sold!";
 		buyButton.gameObject.SetActive (false);
+	}
+
+	public void buyRocket()
+	{
+		moneyAmount -= 20;
+		PlayerPrefs.SetInt ("isRocketSold", 1);
+		rocketPrice.text = "Sold!";
+		buyRocketButton.gameObject.SetActive (false);
 	}
 
 	public void exitShop()
@@ -51,5 +72,8 @@ public class ShopControl : MonoBehaviour {
 		riflePrice.text = "Price: 10$";
 		PlayerPrefs.DeleteAll ();
 	}
+
+	///Second Item
+
 
 }

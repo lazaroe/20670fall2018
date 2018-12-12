@@ -77,3 +77,5 @@ public class ShopControl : MonoBehaviour {
 
 
 }
+
+//StoreExample1

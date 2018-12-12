@@ -15,3 +15,5 @@ public class EventScript : MonoBehaviour {
 		Stop.Invoke();
 	}
 }
+
+//Event for Particles on JetPack

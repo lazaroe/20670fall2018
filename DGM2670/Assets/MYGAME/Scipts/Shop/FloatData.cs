@@ -10,3 +10,5 @@ public class FloatData : ScriptableObject
 		get {return value;}
 	}
 }
+
+//ScriptableObject for Coins & Build Bricks

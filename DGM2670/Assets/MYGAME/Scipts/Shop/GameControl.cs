@@ -45,8 +45,5 @@ public class GameControl : MonoBehaviour {
 		SceneManager.LoadScene ("Shop");
 	}
 
-	//public second Item
-
-
 
 }
